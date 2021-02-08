@@ -6,6 +6,7 @@ a{
     color: rgb(14, 240, 191);
     padding: 0.8%;
 }
+
 .nav{
     display: flex;
   justify-content: flex-end;
@@ -47,16 +48,19 @@ a{
     color: red;
 }
 .projects{
+    text-align: center;
     background:rgb(1, 255, 200);
     font-size:3ex;
+    
 }
 .pro{
+    text-align: center;
     color:blanchedalmond;
     background: black;
     margin: 4%;
     width:30ex;
     display: -webkit-inline-box;
-    text-align: center;
+    
 }  
 
 
@@ -104,4 +108,123 @@ p{
 }
 .add{
     text-align: right;
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    a{
+        text-decoration: none;
+        color: rgb(14, 240, 191);
+        padding: 2%;
+    }
+    .nav{
+     display: flex;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: var(--main-red);
+      box-shadow:0 2px rgb(19, 236, 189);
+      z-index: 10;
+      font-size: 2.9ex;
+      border-right-style: solid;
+    
+    
+    }
+    .navr{
+        color:rgb(19, 236, 189);
+        text-shadow: 2px  -2px  black;
+    
+    }
+    .navr:hover{
+        color:white;
+        background: rgb(19, 236, 189);
+        text-shadow: 2px  -2px rgb(19, 236, 189) ;
+    
+    }
+    .background{
+        height:60ex;
+        text-align: center;
+    }
+    
+    .hide {
+        display: none;
+    }
+      
+    .background :hover + .hide 
+    {
+        display: block;
+        color: red;
+    }
+    .projects{
+        text-align: center;
+        background:rgb(1, 255, 200);
+        font-size:1.7ex;
+        
+    }
+    img{
+        text-align: center;
+    }
+    .pro{
+        text-align: center;
+        color:blanchedalmond;
+        background: rgb(3, 3, 3);
+        margin: 6%;
+        width:30ex;
+        display: -webkit-inline-box;
+        
+    }  
+    
+    
+    img{
+        text-align: center;
+    }
+    h1{
+        color:white;
+        font-size:4.2ex;
+        text-align: center;
+        margin-top:40%;
+        text-shadow:  1px -2px  rgb(7, 248, 196);
+    }
+    br{
+        transform: rotate(-7deg);
+    }
+    h2{
+        color:rgb(243, 250, 241);
+        text-align: center;
+        font-size: 4ex;
+    
+    }
+    h4{
+        color:white;
+        text-align:center;
+        margin: 0%;
+    }
+    .contact{
+        text-align: center;
+        height:40ex;
+    }
+    .contacts{
+        margin-top: 14%;
+        font-size: 2ex;
+
+    }
+  
+    h4:hover{
+    
+        color:red;
+    }
+    hr{
+        color:rgb(6, 255, 222);
+    }
+    p{
+        color:rgb(6, 255, 222);
+        
+    }
+    .add{
+        text-align: right;
+    }
+
 }
