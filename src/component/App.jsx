@@ -78,7 +78,7 @@ function App(){
                 <br /> CS Student
               </h1>
               <a
-                href="https://diiviij.github.io/assets/doc/DivijJain.pdf"
+                href="https://diiviij.github.io/src/DivijJain.pdf"
                 target="_blank"
                 className="button"
               >
@@ -117,7 +117,7 @@ function App(){
               I
             </div>
             <div className="home__img">
-              <img src="diiviij.github.io/src/component/assets/img/divij.png" />
+              <img src="https://diiviij.github.io/src/component/assets/img/divij.png"  />
             </div>
           </section>
           {/*===== ABOUT =====*/}
@@ -125,11 +125,11 @@ function App(){
             <h2 className="section-title">About</h2>
             <div className="about__container bd-grid">
               <div className="about__img">
-                <img src="diiviij.github.io/src/component/assets/img/about.png " />
+                <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
               </div>
               <div>
                 <h2 className= "about__subtitle">
-                  I am Divij  
+                  I'am Divij  
                   </h2>
                 <p className="about__text">
                   Currently having a Master's degree in computer application from VIT
@@ -210,7 +210,7 @@ function App(){
                 </div>
               </div>
               <div>
-                <img src="diiviij.github.io/src/component/assets/img/work3.jpeg" className="skills__img" />
+                <img src="https://images.unsplash.com/photo-1502951682449-e5b93545d46e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHNraWxscyUyMGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="skills__img" />
               </div>
             </div>
           </section>
@@ -220,7 +220,7 @@ function App(){
             <div className="work__container bd-grid">
               <div className="work__img">
                 <a href="https://learnbuddy.netlify.app/article">
-                  <img src="diiviij.github.io/src/component/assets/img/work1.jpeg" />
+                  <img src="https://diiviij.github.io/src/component/assets/img/work1.jpeg" />
                 </a>
               </div>
               <div className="work__img">
@@ -235,9 +235,47 @@ function App(){
               <div className="work__img">
                 {" "}
                 <a href="https://learnbuddy.netlify.app/news">
-                  <img src="diiviij.github.io/src/component/assets/img/work3.jpeg"  />
+                  <img src="https://diiviij.github.io/src/component/assets/img/work3.jpeg"  />
                 </a>
               </div>
+
+
+
+
+
+
+
+
+
+
+
+              <div className="work__img">
+                <a href="https://github.com/diiviij/Pytelebot">
+                  <img src="https://www.macitynet.it/wp-content/uploads/2016/04/10-migliori-bot-di-telegram-e1461579945480.jpg" />
+                </a>
+              </div>
+              <div className="work__img">
+                <a href="https://github.com/diiviij/Opencv-Python">
+                  <img
+                    src="https://th.bing.com/th/id/OIP.TEo8uPhO0p5eMaBOUw7oYgHaEK?pid=ImgDet&rs=1"
+                    
+                  />
+                </a>
+                
+              </div>
+              <div className="work__img">
+                {" "}
+                <a href="https://learnbuddy.netlify.app/news">
+                  <img src="https://diiviij.github.io/src/component/assets/img/work3.jpeg"  />
+                </a>
+              </div>
+
+
+
+
+
+
+
 
 
 
@@ -251,7 +289,7 @@ function App(){
 
               <div className="work__img">
                 <a href="https://learnbuddy.netlify.app/article">
-                  <img src="diiviij.github.io/src/component/assets/img/work1.jpeg" />
+                  <img src="https://diiviij.github.io/src/component/assets/img/work1.jpeg" />
                 </a>
               </div>
               <div className="work__img">
@@ -266,45 +304,7 @@ function App(){
               <div className="work__img">
                 {" "}
                 <a href="https://learnbuddy.netlify.app/news">
-                  <img src="diiviij.github.io/src/component/assets/img/work3.jpeg"  />
-                </a>
-              </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              <div className="work__img">
-                <a href="https://learnbuddy.netlify.app/article">
-                  <img src="diiviij.github.io/src/component/assets/img/work1.jpeg" />
-                </a>
-              </div>
-              <div className="work__img">
-                <a href="https://github.com/diiviij/InstaBot">
-                  <img
-                    src="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/How-to-Make-an-Instagram-Bot-With-InstaPy_Watermarked.0bce6603f368.jpg&w=960&sig=c5790ac7cf28823ed7b71f07fd77bcffbf626971"
-                    
-                  />
-                </a>
-                
-              </div>
-              <div className="work__img">
-                {" "}
-                <a href="https://learnbuddy.netlify.app/news">
-                  <img src="diiviij.github.io/src/component/assets/img/work3.jpeg"  />
+                  <img src="https://diiviij.github.io/src/component/assets/img/work3.jpeg"  />
                 </a>
               </div>
 
