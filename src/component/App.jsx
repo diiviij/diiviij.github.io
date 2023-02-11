@@ -210,7 +210,7 @@ function App(){
                 </div>
               </div>
               <div>
-                <img src="https://images.unsplash.com/photo-1502951682449-e5b93545d46e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHNraWxscyUyMGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="skills__img" />
+                <img src="https://storytale-public2.b-cdn.net/2021/08/16/ade359fb-0e0e-4e4d-a0b0-9ee4746e7eeb-Statistics.png?height=410 1x, https://storytale-public2.b-cdn.net/2021/08/16/ade359fb-0e0e-4e4d-a0b0-9ee4746e7eeb-Statistics.png?height=820 2x" className="skills__img" />
               </div>
             </div>
           </section>
