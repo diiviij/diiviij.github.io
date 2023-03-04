@@ -117,7 +117,7 @@ function App(){
               I
             </div>
             <div className="home__img">
-              <img src="https://diiviij.github.io/src/component/assets/img/divij.png"  />
+              <img src="https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/divij.png"  />
             </div>
           </section>
           {/*===== ABOUT =====*/}
@@ -220,7 +220,7 @@ function App(){
             <div className="work__container bd-grid">
               <div className="work__img">
                 <a href="https://learnbuddy.netlify.app/article">
-                  <img src="https://diiviij.github.io/src/component/assets/img/work1.jpeg" />
+                  <img src=https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/work1.jpeg" />
                 </a>
               </div>
               <div className="work__img">
@@ -235,7 +235,7 @@ function App(){
               <div className="work__img">
                 {" "}
                 <a href="https://learnbuddy.netlify.app/news">
-                  <img src="https://diiviij.github.io/src/component/assets/img/work3.jpeg"  />
+                  <img src="https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/work3.jpeg"  />
                 </a>
               </div>
 
@@ -266,7 +266,7 @@ function App(){
               <div className="work__img">
                 {" "}
                 <a href="https://learnbuddy.netlify.app/news">
-                  <img src="https://diiviij.github.io/src/component/assets/img/work3.jpeg"  />
+                  <img src="https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/work3.jpeg"  />
                 </a>
               </div>
 
@@ -289,7 +289,7 @@ function App(){
 
               <div className="work__img">
                 <a href="https://learnbuddy.netlify.app/article">
-                  <img src="https://diiviij.github.io/src/component/assets/img/work1.jpeg" />
+                  <img src=https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/work1.jpeg" />
                 </a>
               </div>
               <div className="work__img">
@@ -304,7 +304,7 @@ function App(){
               <div className="work__img">
                 {" "}
                 <a href="https://learnbuddy.netlify.app/news">
-                  <img src="https://diiviij.github.io/src/component/assets/img/work3.jpeg"  />
+                  <img src=https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/work3.jpeg"  />
                 </a>
               </div>
 
