@@ -1,125 +1,116 @@
 import React from "react";
 
-
-function App(){
-    return (
-        <div>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        {/* =====BOX ICONS===== */}
-        <link
-          href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
-          rel="stylesheet"
-        />
-        <title>Divij Jain</title>
-        {/*===== HEADER =====*/}
-        <header className="l-header">
-          <nav className="nav bd-grid">
-            <div>
-              <a href="#" className="nav__logo" />
-            </div>
-            <div className="nav__menu" id="nav-menu">
-              <ul className="nav__list">
-                <li className="nav__item">
-                  <a href="#home" className="nav__link active">
-                    Home
-                  </a>
-                </li>
-                <li className="nav__item">
-                  <a href="#about" className="nav__link">
-                    About
-                  </a>
-                </li>
-                <li className="nav__item">
-                  <a href="#skills" className="nav__link">
-                    Skills
-                  </a>
-                </li>
-                <li className="nav__item">
-                  <a href="#work" className="nav__link">
-                    Projects
-                  </a>
-                </li>
-                <li className="nav__item">
-                  <a href="#contact" className="nav__link">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="nav__toggle" id="nav-toggle">
-              <i className="bx bx-menu" />
-            </div>
-          </nav>
-        </header>
-        <main className="l-main">
-          {/*===== HOME =====*/}
-          <section className="home bd-grid" id="home">
-            <div className="home__data">
-              <h1 className="home__title">
-                Hi,
-                <br />
-                I'am <span className="home__title-color">Divij Jain</span>
-                <br /> CS Student
-              </h1>
-              <a
-                href="https://diiviij.github.io/src/DivijJain.pdf"
-                target="_blank"
-                className="button"
-              >
-                View Resume
-              </a>
-            </div>
-            <div className="home__social">
-              <a
-                href="https://linkedin.com/in/divij-jain-625b651a5"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <i className="bx bxl-linkedin" />
-              </a>
-              <a
-                href="mailto:divijj01@gmail.com"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <i className="fab fa-google" />
-              </a>
-              <a
-                href="https://github.com/diiviij"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <i className="bx bxl-github" />
-              </a>
-              <a
-                href="https://twitter.com/diiviij1"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <i className="bx bxl-twitter" />
-              </a>
-              I
-            </div>
-            <div className="home__img">
-              <img src="https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/divij.png"  />
-            </div>
-          </section>
+function App() {
+  return (
+    <div>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/styles.css" />
+      {/* =====BOX ICONS===== */}
+      <link
+        href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossOrigin="anonymous"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+        rel="stylesheet"
+      />
+      <title>Divij Jain</title>
+      {/*===== HEADER =====*/}
+      <header className="l-header">
+        <nav className="nav bd-grid">
+          <div>
+            <a href="#" className="nav__logo" />
+          </div>
+          <div className="nav__menu" id="nav-menu">
+            <ul className="nav__list">
+              <li className="nav__item">
+                <a href="#home" className="nav__link active">Home</a>
+              </li>
+              <li className="nav__item">
+                <a href="#about" className="nav__link">About</a>
+              </li>
+              <li className="nav__item">
+                <a href="#skills" className="nav__link">Skills</a>
+              </li>
+              <li className="nav__item">
+                <a href="#work" className="nav__link">Projects</a>
+              </li>
+              <li className="nav__item">
+                <a href="#guidance" className="nav__link">Guidance</a>
+              </li>
+              <li className="nav__item">
+                <a href="#contact" className="nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div className="nav__toggle" id="nav-toggle">
+            <i className="bx bx-menu" />
+          </div>
+        </nav>
+      </header>
+      <main className="l-main">
+        {/*===== HOME =====*/}
+        <section className="home bd-grid" id="home">
+          <div className="home__data">
+            <h1 className="home__title">
+              Hi,
+              <br />
+              I'am <span className="home__title-color">Divij Jain</span>
+              <br /> CS Student
+            </h1>
+            <a
+              href="https://diiviij.github.io/src/DivijJain.pdf"
+              target="_blank"
+              className="button"
+            >
+              View Resume
+            </a>
+          </div>
+          <div className="home__social">
+            <a
+              href="https://linkedin.com/in/divij-jain-625b651a5"
+              target="_blank"
+              className="home__social-icon"
+            >
+              <i className="bx bxl-linkedin" />
+            </a>
+            <a
+              href="mailto:divijj01@gmail.com"
+              target="_blank"
+              className="home__social-icon"
+            >
+              <i className="fab fa-google" />
+            </a>
+            <a
+              href="https://github.com/diiviij"
+              target="_blank"
+              className="home__social-icon"
+            >
+              <i className="bx bxl-github" />
+            </a>
+            <a
+              href="https://twitter.com/diiviij1"
+              target="_blank"
+              className="home__social-icon"
+            >
+              <i className="bx bxl-twitter" />
+            </a>
+          </div>
+          <div className="home__img">
+            <img src="https://raw.githubusercontent.com/diiviij/diiviij.github.io/master/src/component/assets/img/divij.png" />
+          </div>
+        </section>
           {/*===== ABOUT =====*/}
           <section className="about section " id="about">
             <h2 className="section-title">About</h2>
